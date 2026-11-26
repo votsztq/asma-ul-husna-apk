@@ -25,28 +25,3 @@
 3. Tap the downloaded `.apk` file and follow the on-screen prompt to install **Learn-It**.
 
 ---
-
-## Repository Structure
-```text
-learn-it/
-├── app/
-│   ├── build.gradle.kts          # Android app module & v1.0 version config
-│   └── src/
-│       ├── main/
-│       │   ├── AndroidManifest.xml
-│       │   ├── assets/           # Offline JSON datasets & 312 bundled MP3s
-│       │   ├── java/com/example/ # Kotlin + Jetpack Compose + Room SQLite source
-│       │   └── res/              # Fonts, drawables, strings, and themes
-│       └── test/                 # Unit & Robolectric tests
-├── gradle/                       # Gradle wrapper & version catalog
-├── build.gradle.kts
-├── settings.gradle.kts
-└── README.md
-```
-
----
-
-## Building Locally
-1. Open the project in **Android Studio** (or use `./gradlew assembleDebug` with `ANDROID_HOME` configured).
-2. Ensure JDK 11+ and Android SDK 36 are installed.
-3. Run `./gradlew assembleDebug` to build the APK.
