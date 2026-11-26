@@ -20,7 +20,7 @@
 ---
 
 ## Installing the Android APK (`v1.0`)
-1. Download the `v1.0` APK (`app-debug.apk`) from the **GitHub Releases** page.
+1. 1. Download the `v1.0` APK (`app-debug.apk`) from the **[GitHub Releases](https://github.com/votsztq/asma-ul-husna-apk/releases)** page.
 2. On your Android device, open **Settings → Security** (or **Apps → Special app access → Install unknown apps**) and enable **Install from Unknown Sources** for your browser or file manager.
 3. Tap the downloaded `.apk` file and follow the on-screen prompt to install **Learn-It**.
 
